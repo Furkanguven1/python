@@ -1,12 +1,16 @@
-while True:
-    str = input(": ").lower()
-    arr = []
-    for i in str:
-        bool = False
-        for j in arr:
-            if i == j:
-                bool = True
-                break
-        if bool == False:
-            arr.append(i) 
-    print(''.join(arr))
+a = []
+s = input("Bir kelime giriniz : ")
+s = s.lower()
+tmp=[None]*len(s)
+i=0
+for c in s:
+    print(c)
+    varmi=False
+    for j in range(len(s)):
+        k=tmp[j]
+        if c==k:
+            varmi=True
+    if varmi == False:
+        tmp[i]=c
+        i = i+1
+print(tmp)
