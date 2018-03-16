@@ -5,8 +5,7 @@ Array'in indexi kadar döndürdüm , Sonra toplam için döngüde array'in elema
 'toplam' değişkeninden 'x' değişkenini çıkartarak ekrana bastım.
 
 HW2
-klavyeden girilen bir sayının tek veya çift karakterli olduğunu anlıyoruz. 
-daha sonra kelime hem düz hem tersten aynı şekilde okunuyorsa palindrom sayıdır.
+2 tane int değer isteyerek num1 ve num2 değişkenlerine atadım. 1 tane string değeri de str değişkenine atadım. Girilen 2 int değerin arası sileneceği için girilen ilk sayı kadar olan string girdiyi str adlı değişkene, girilen ikinci sayıden sonraki string değeri str2 adlı değişkene atadım ve ekrana bastım.
 
 HW3
 Bir string değer aldım str değişkenine atadım. 'arr' adından bir list oluşturdum. 
